@@ -1,0 +1,38 @@
+ul{
+    list-style-type: none;
+    background-color: rgb(78, 158, 233);
+    margin:0;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+li:hover{
+
+    background-color: rgba(1, 15, 15, 0.425) ;
+    color: white;
+   
+}
+
+ li{
+     text-align: center;
+     padding: 30px;
+    display: inline-block;
+}
+
+a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 30px;
+    font-size: 30px;
+}
+
+nav ul li :hover{
+    color: white;
+}
+
+body{
+    background-image: url("Images/background.jpg");
+    background-repeat: repeat;
+}
