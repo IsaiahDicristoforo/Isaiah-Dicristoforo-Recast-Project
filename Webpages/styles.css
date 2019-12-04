@@ -113,6 +113,11 @@ body{
     display: initial;
 }
 
+#whyCareThesis{
+    font-size: 30px;
+    font-style: italic;
+}
+
 
 
 .navElements{
