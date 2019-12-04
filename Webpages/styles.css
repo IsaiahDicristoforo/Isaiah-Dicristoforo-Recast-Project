@@ -1,6 +1,48 @@
+h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    padding-left: 20px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    
+}
+
+#downloadLink{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: inline-block; 
+    float: right; 
+    margin-right: 50px;
+    border-radius: 20px;
+    height: auto;
+    background-color: rgba(230, 223, 223, 0.986);
+
+}
+
+#downloadLink:hover{
+    background-color: rgb(141, 138, 138);
+    transition: 500ms;
+ 
+}
+
+#titleDiv{
+
+    background-color: rgba(245, 245, 245, 0.527);
+    height: auto;
+}
+
+#wrapper{
+    width:0 auto;
+    margin: auto 60px;
+}
+
 ul{
     list-style-type: none;
-    background-color: rgb(78, 158, 233);
+    background-color: rgba(87, 130, 170, 0.87);
     margin:0;
     padding-left: 20px;
     padding-right: 20px;
@@ -25,7 +67,7 @@ a{
     color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 30px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 nav ul li :hover{
@@ -35,4 +77,44 @@ nav ul li :hover{
 body{
     background-image: url("Images/background.jpg");
     background-repeat: repeat;
+    background-size: 90%;
 }
+
+.introParagraph{
+    border-radius: 15px;
+    margin-right: 50px;
+    margin-top: 30px;
+    padding:25px;
+    font-size: 20px;
+    width: 600px;
+    margin-left: 150x;
+    color:black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(245, 245, 245, 0.863);
+}
+
+.parentAnnecdote{
+
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 90px;
+    padding:25px;
+    font-size: 20px;
+    width: 550px;
+    color:black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(245, 245, 245, 0.863);
+
+}
+
+#sleepMatters{
+    display: initial;
+}
+
+
+
+.navElements{
+}
+
